@@ -1,0 +1,13 @@
+.supi5-box{ padding:14px; border-radius:10px; background:#fff; box-shadow:0 6px 18px rgba(0,0,0,0.06); max-width:720px; margin:12px auto; }
+.supi5-title{ margin:0 0 6px; font-size:18px; }
+.supi5-desc{ color:#666; margin:0 0 12px; }
+.supi5-bar{ height:8px; background:#eee; border-radius:999px; overflow:hidden; margin:10px auto; max-width:320px; }
+.supi5-fill{ height:8px; background:linear-gradient(90deg,#ff6b35,#ff8a66); width:0%; transition:width .3s linear; }
+.supi5-count{ text-align:center; color:#444; margin-top:6px; }
+.supi5-warn{ background:#fff7ed; padding:8px; border-radius:8px; color:#7a3b00; max-width:520px; margin:0 auto; }
+.supi5-success{ color:#155724; background:#d4edda; padding:8px; border-radius:6px; }
+/* final7 mobile stack */
+@media (max-width: 768px){
+  .supi5-actions, #supi5-copyrow, #supi5-payrow, .supi5-containers{ flex-direction: column !important; align-items: center !important; }
+  #supi5-copyrow .button, #supi5-payrow .button { width: 90% !important; margin-top: 8px; }
+}
